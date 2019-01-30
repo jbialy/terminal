@@ -115,6 +115,7 @@ alias weather='curl "wttr.in/Ottawa?0"'
 alias lg='lazygit'
 alias cat='bat -n'
 
+# zsh completion handled outside of oh-my-zsh plugins
 source <(awless completion zsh)
 source <(kubectl completion zsh)
 source <(minikube completion zsh)
