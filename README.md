@@ -8,3 +8,9 @@ Oh my zsh custom plugins (`~/.oh-my-zsh/custom/plugins/`):
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+## Useful tools
+
+- [kubectx and kubens](https://github.com/ahmetb/kubectx) - Easier way to switch between k8s contexts and namespaces
+- [lazygit](https://github.com/jesseduffield/lazygit) - Git terminal UI
+- [bat](https://github.com/sharkdp/bat) - A `cat` clone with colors
