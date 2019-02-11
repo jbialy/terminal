@@ -18,9 +18,6 @@ export PATH="$PATH:$GOPATH/bin"
 # Add GPG key to shell 
 export GPG_TTY=$(tty)
 
-# Add support for "jump around"
-. ~/z/z.sh
-
 # add shellcheck excludes
 export SHELLCHECK_EXCLUDES="SC2154,SC2086,SC2155,SC2015,SC2207,SC1090"
 
@@ -89,9 +86,9 @@ plugins=(
   aws
   fzf
   brew
+  z
   docker
   golang
-  helm
   thefuck
   zsh-autosuggestions
   kubectl
@@ -120,3 +117,4 @@ alias cat='bat -n'
 source <(awless completion zsh)
 source <(kubectl completion zsh)
 source <(minikube completion zsh)
+source <(helm completion zsh)
