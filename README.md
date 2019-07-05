@@ -13,4 +13,5 @@ Oh my zsh custom plugins (`~/.oh-my-zsh/custom/plugins/`):
 
 - [kubectx and kubens](https://github.com/ahmetb/kubectx) - Easier way to switch between k8s contexts and namespaces
 - [lazygit](https://github.com/jesseduffield/lazygit) - Git terminal UI
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - Docker terminal UI
 - [bat](https://github.com/sharkdp/bat) - A `cat` clone with colors
