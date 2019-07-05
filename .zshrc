@@ -21,8 +21,9 @@ export GPG_TTY=$(tty)
 # add shellcheck excludes
 export SHELLCHECK_EXCLUDES="SC2154,SC2086,SC2155,SC2015,SC2207,SC1090"
 
-# python 2.7 user bin
+# python 2.7/3.7 user bin
 export PATH="$PATH:/Users/cqd/Library/Python/2.7/bin"
+export PATH="$PATH:/Users/cqd/Library/Python/3.7/bin"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -111,9 +112,12 @@ alias kc='kubectx'
 alias kns='kubens'
 alias weather='curl "wttr.in/Ottawa?0"'
 alias lg='lazygit'
+alias ldock='lazydocker'
 alias cat='bat -n'
+alias k='kubectl'
 
 # zsh completion handled outside of oh-my-zsh plugins
+
 source <(awless completion zsh)
 source <(kubectl completion zsh)
 source <(minikube completion zsh)
