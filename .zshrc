@@ -116,6 +116,12 @@ alias ldock='lazydocker'
 alias cat='bat -n'
 alias k='kubectl'
 
+okta-awscli () {
+    sed -i'' -e '/role/d' ~/.okta-aws
+    sed -i'' -e '/app-link/d' ~/.okta-aws
+    command okta-awscli "$@"
+}
+
 # zsh completion handled outside of oh-my-zsh plugins
 
 source <(awless completion zsh)
