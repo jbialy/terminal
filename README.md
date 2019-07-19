@@ -1,6 +1,8 @@
-# terminal
+# Terminal
 
-general repo for holding my terminal config stuff
+General repo for holding my terminal config stuff
+
+- [iTerm2](https://www.iterm2.com/) - Replacement for Terminal
 
 ## Custom Plugins
 
@@ -15,3 +17,4 @@ Oh my zsh custom plugins (`~/.oh-my-zsh/custom/plugins/`):
 - [lazygit](https://github.com/jesseduffield/lazygit) - Git terminal UI
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - Docker terminal UI
 - [bat](https://github.com/sharkdp/bat) - A `cat` clone with colors
+- [z](https://github.com/rupa/z) - Jump around :)
