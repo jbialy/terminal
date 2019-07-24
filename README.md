@@ -3,6 +3,7 @@
 General repo for holding my terminal config stuff
 
 - [iTerm2](https://www.iterm2.com/) - Replacement for Terminal
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Framework for managing your zsh configuration (requires ZSH shell)
 
 ## Custom Plugins
 
