@@ -5,6 +5,7 @@ General repo for holding my terminal config stuff
 - [ghostty](https://ghostty.org/)
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Framework for managing your zsh configuration (requires [ZSH shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#how-to-install-zsh-in-many-platforms))
 - [orbstack](https://orbstack.dev/)
+- [rectangle](https://rectangleapp.com/)
 
 ## Custom Plugins
 
