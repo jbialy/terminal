@@ -29,6 +29,8 @@ export FZF_DEFAULT_OPTS='--height ~20% --layout reverse --border'
 - [bat](https://github.com/sharkdp/bat) - A `cat` clone with colors
 - [z](https://github.com/rupa/z) - Jump around :)
 
+## Useful apps
+
 - [Space Rabbit](https://space-rabbit.app/) - Switch MacOS spaces instantly
 - [Whatcable](https://www.whatcable.uk/) - USB-C cable stats
 - [OrbStack](https://orbstack.dev/) - Faster way to run Docker containers
